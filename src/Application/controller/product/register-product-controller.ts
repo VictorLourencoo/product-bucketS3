@@ -2,8 +2,6 @@ import { Request, Response } from 'express';
 import { z } from "zod"
 import { HttpResponse, Product } from '../../../Domain/product/interface';
 import { registerProductUseCase } from '../../usecases/product/register-product-use-case';
-import { BodyError } from '../../../Domain/functions/errors';
-import { HTTP_RESPONSE, HTTP_STATUS_CODES } from '../../../Domain/constants/web';
 
 export interface productRegisterHandle extends Product { }
 

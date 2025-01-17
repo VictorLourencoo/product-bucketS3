@@ -1,4 +1,3 @@
-import { TILT } from "../../../../shared/src/erros/generic";
 import { spaceBucket } from "./adapters/space";
 import type { BucketConfig, BucketContract } from "./contracts";
 

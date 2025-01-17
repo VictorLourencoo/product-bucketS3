@@ -1,4 +1,3 @@
-import { HttpResponseCode } from "../types/web"
 
 type DecimalString = string
 
