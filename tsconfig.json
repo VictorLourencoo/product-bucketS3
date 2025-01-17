@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "target": "es2022",
+        "moduleResolution": "Bundler",
+        "esModuleInterop": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "isolatedModules": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "incremental": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "strictBindCallApply": false,
+        "baseUrl": "./",
+        "paths": {
+            "@Application/*": [
+                "./src/Application/*"
+            ],
+            "@Domain/*": [
+                "./src/Domain/*"
+            ],
+            "@Infrastructure/*": [
+                "./src/Infrastructure/*"
+            ],
+            "@Presentation/*": [
+                "./src/Presentation/*"
+            ],
+            "@Dependencies": [
+                "./src/dependencies.ts"
+            ],
+            "@Env": [
+                "./src/Env.ts"
+            ]
+        }
+    },
+    "include": [
+        "src",
+        "scripts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/**/*.spec.ts"
+    ]
+}
